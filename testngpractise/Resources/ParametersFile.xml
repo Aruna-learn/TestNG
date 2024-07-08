@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="OpenCartSuite">
+<parameter name="browserName" value="Firefox" />
+	<!--<parameter name="browserName" value="Firefox"/> - suite level -->
+	<parameter name="URL" value="https://www.opencart.com/" />
+	<parameter name="sleep" value="3000" />
+	<test name="Opencart">
+		<!-- <parameter name="browserName" value="chrome" />- test level -->
+		<classes>
+			<class name="com.testngpractise.OpenCartParameters" />
+			<methods>
+				<include name="LaunchApp" />
+				<include name="verifylogo" />
+				<include name="imageavailable" />
+				<include name="DemoLogin" />
+				<include name="StoreFront" />
+
+			</methods>
+
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Open">
+		<parameter name="browserName" value="edge" />
+		<classes>
+			<class name="com.testngpractise.OpenCartParameters" />
+			<methods>
+				<include name="LaunchApp" />
+				<include name="verifylogo" />
+				
+			</methods>
+
+		</classes>
+	</test> <!-- Test -->
+
+</suite>

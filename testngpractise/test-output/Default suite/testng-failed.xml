@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="IntegrateExtentReportwithTestNwithAnnotations.ScreenshotTest">
+        <methods>
+          <include name="checkstatus"/>
+          <include name="closeBrowser"/>
+          <include name="generatereport"/>
+          <include name="initializeextentreport"/>
+          <include name="Facebook"/>
+          <include name="Facebookweb"/>
+          <include name="LaunchApp"/>
+          <include name="setUpBrowser"/>
+        </methods>
+      </class> <!-- IntegrateExtentReportwithTestNwithAnnotations.ScreenshotTest -->
+      <class name="com.testngpractise.Groupttestdependecy">
+        <methods>
+          <include name="test0"/>
+          <include name="test16"/>
+        </methods>
+      </class> <!-- com.testngpractise.Groupttestdependecy -->
+      <class name="com.testngpractise.Groupttestdependecy2">
+        <methods>
+          <include name="sn2"/>
+          <include name="test01"/>
+        </methods>
+      </class> <!-- com.testngpractise.Groupttestdependecy2 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

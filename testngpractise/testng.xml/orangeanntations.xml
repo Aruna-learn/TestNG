@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+	<test name="OrangeHRMAnnot">
+		<classes>
+			<class name="com.testngpractise.OrangeHRMAnnotations" />
+			<methods>
+				<include name="LaunchApp" />
+				<include name="EnterLoginDetails" />
+				<include name="VerifyLogin" />
+			</methods>
+			
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="OrangeHRMMyInfo">
+		<classes>
+			<class name="com.testngpractise.OrangeHRM">
+				<methods>
+					<include name="LaunchApp" />
+					<include name="EnterLoginDetails" />
+					<include name="MyInfo" />
+					<include name="VerifyMyinfo" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+
+</suite> <!-- Suite -->

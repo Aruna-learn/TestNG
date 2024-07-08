@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" >
+<listeners>
+<listener class-name="com.Listeners.TestListenerClass"></listener>
+</listeners>
+  <test  name="Test">
+    <classes>
+      <class name="com.Listeners.Class1"/>
+      <include name="p1" />
+	<include name="p2" />
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+  <test  name="Test1">
+    <classes>
+      <class name="com.Listeners.Class1"/>
+      <include name="p4" />
+	<include name="p5" />
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
